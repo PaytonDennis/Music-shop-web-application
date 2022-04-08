@@ -1,6 +1,6 @@
 <?php
 
-namespace murach\cart {
+namespace Cart\cart {
 
     // Add an item to the cart
     function add_item(&$cart, $key, $quantity) {
