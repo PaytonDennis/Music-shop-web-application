@@ -11,7 +11,7 @@ if (empty($_SESSION['cart13'])) {
     $cart = $_SESSION['cart13'];
 }
 
-// Create a table of products
+// Create a table of products. Static data, looking to include database soon
 $products = array();
 $products['MMS-1754'] = array('name' => 'Flute', 'cost' => '149.50');
 $products['MMS-6289'] = array('name' => 'Trumpet', 'cost' => '199.50');
